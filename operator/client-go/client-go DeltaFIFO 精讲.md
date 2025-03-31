@@ -235,5 +235,5 @@ controller 根据 DeltaFIFO 中不同的资源类型做相应的处理，也侧�
 
 从 controller 可以看出更新到缓存中的永远是最新的资源，保证了处理资源的一致性。
 
-回头看，这里的逻辑是 [client-go 架构图](https://github.com/TroyXia/blogs/blob/main/operator/client-go/client-go%20list%20%26%20watch%20%E7%B2%BE%E8%AE%B2.md)的第四步和第六步。
+回头看，这里的逻辑是 [client-go 架构图](https://github.com/TroyXia/blogs/blob/main/operator/client-go/client-go%20list%20%26%20watch%20%E7%B2%BE%E8%AE%B2.md) 的第四步和第六步。
 
